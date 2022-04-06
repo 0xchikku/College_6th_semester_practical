@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+
+.clock{
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+}
