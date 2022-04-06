@@ -10,6 +10,6 @@ function compute(){
     document.getElementById('result').value = y;
 }
 
-function clear(){
-    document.getElementById('result').value = "";
+function clr(){
+    document.getElementById('result').value = '';
 }
