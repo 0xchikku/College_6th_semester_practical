@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <title>Button Image Switcher</title>
 </head>
 <body>
     <div id="ImageSlider">
-        
-        <!-- Slides -->
-        <img id="slide1" src="jsSrc.png">
-        <img id="slide2" src="jsOver.png">
-        <img id="slide3" src="jsOut.png">
-
-        <!-- Links -->
-        <a href="#slide1">slide1</a><br>
-        <a href="#slide2">slide2</a><br>
-        <a href="#slide3">slide3</a><br>
-
+        <img id="Image" src="jsSrc.png" alt=""><br>
+        <button onclick="changeImage('1')">Image1</button>
+        <button onclick="changeImage('2')">Image2</button>
+        <button onclick="changeImage('3')">Image3</button>
     </div>
 </body>
 </html>
